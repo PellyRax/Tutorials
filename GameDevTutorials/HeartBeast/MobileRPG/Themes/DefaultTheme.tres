@@ -1,0 +1,39 @@
+[gd_resource type="Theme" load_steps=7 format=2]
+
+[ext_resource path="res://Fonts/DefaultFont.tres" type="DynamicFont" id=1]
+[ext_resource path="res://StyleBoxes/Panel9Slice.tres" type="StyleBox" id=2]
+[ext_resource path="res://StyleBoxes/Button9Slice.tres" type="StyleBox" id=3]
+[ext_resource path="res://StyleBoxes/Button9SlicePressed.tres" type="StyleBox" id=4]
+[ext_resource path="res://StyleBoxes/Button9SliceHover.tres" type="StyleBox" id=5]
+
+[sub_resource type="StyleBoxEmpty" id=1]
+
+[resource]
+default_font = ExtResource( 1 )
+Button/colors/font_color = Color( 1, 1, 1, 1 )
+Button/colors/font_color_disabled = Color( 1, 1, 1, 0.2 )
+Button/colors/font_color_focus = Color( 1, 1, 1, 1 )
+Button/colors/font_color_hover = Color( 0.94, 0.94, 0.94, 1 )
+Button/colors/font_color_pressed = Color( 0.0196078, 0, 0, 1 )
+Button/fonts/font = ExtResource( 1 )
+Button/styles/disabled = ExtResource( 3 )
+Button/styles/focus = SubResource( 1 )
+Button/styles/hover = ExtResource( 5 )
+Button/styles/normal = ExtResource( 3 )
+Button/styles/pressed = ExtResource( 4 )
+Label/colors/font_color = Color( 1, 1, 1, 1 )
+LineEdit/fonts/font = ExtResource( 1 )
+LineEdit/styles/focus = ExtResource( 2 )
+LineEdit/styles/normal = ExtResource( 2 )
+LineEdit/styles/read_only = ExtResource( 2 )
+OptionButton/styles/disabled = ExtResource( 2 )
+OptionButton/styles/focus = ExtResource( 2 )
+OptionButton/styles/hover = ExtResource( 2 )
+OptionButton/styles/normal = ExtResource( 2 )
+OptionButton/styles/pressed = ExtResource( 2 )
+Panel/styles/panel = ExtResource( 2 )
+TextEdit/fonts/font = ExtResource( 1 )
+TextEdit/styles/completion = ExtResource( 2 )
+TextEdit/styles/focus = ExtResource( 2 )
+TextEdit/styles/normal = ExtResource( 2 )
+TextEdit/styles/read_only = ExtResource( 2 )
